@@ -85,7 +85,7 @@ describe('TodoMVC - React', function () {
     // https://on.cypress.io/should
     // https://on.cypress.io/as
 
-    it('should allow me to add todo items', function () {
+    it.only('should allow me to add todo items', function () {
       // create 1st todo
       cy.get('.new-todo').type(TODO_ITEM_ONE).type('{enter}')
 
